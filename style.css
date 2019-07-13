@@ -96,10 +96,6 @@ body > header > div.search > p > input[type="Radio"]:nth-child(2)
 	border: none;
 
 }
-.chuwhere
-{
-	margin-right: 76px;
-}
 
 .benefit-to
 {
@@ -181,6 +177,8 @@ body > section > div.getinspire > a
 {
 	display: grid;
 	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	margin-bottom: 10px;
 }
 .anh12 img, .anh345 img
 {
@@ -190,6 +188,7 @@ body > section > div.getinspire > a
 {
 	display: grid;
 	grid-template-columns: auto auto auto;
+grid-gap: 10px;
 }
 .anh1 span, .anh2 span
 {
@@ -215,13 +214,19 @@ body > section > div.getinspire > a
 {
 position: absolute;
 right: 0;
-top: 20px;
+    top: 20px;
+
 }
 .anhchu
 {
 	display: grid;
 	grid-template-columns: auto auto;
 	grid-gap: 50px;
+	margin-top: 131px;
+}
+.anhchu1
+{
+	width: 510px;
 }
 .anhchu img
 {
@@ -231,6 +236,7 @@ top: 20px;
 {
 	display: grid;
 	grid-template-columns: auto auto auto;
+	grid-gap: 40px;
 }
 .todaytop img
 {
@@ -243,10 +249,15 @@ top: 20px;
 	background-color: #006DFE;
 	color: #FFFFFF;
 	border: none;
+    margin-bottom: 50px
+
 }
 .todaytop-nho 
 {
 	position: relative;
+	    top: -30px;
+	    background-color: rgba(21, 24, 36, 0.6);
+	    color: #FFFFFF;
 }
 .todaytop-nho .icon
 {
@@ -261,6 +272,7 @@ right: 0;
 .anhvideo 
 {
 	position: relative;
+	    margin-top: 40px;
 }
 .anhvideonho
 {
@@ -273,30 +285,102 @@ right: 0;
 footer
 {
 	background-color: #0E1D28;
+	position: relative;
+	height: 370px;
 
 }
 footer li
 {
 	list-style: none;
 }
+footer div
+{
+	position: absolute;
+	top: 106px;
+	right: 100px;
+}
 footer div ul
 {
 	float: left;
 }
+footer img
+{
+	position: absolute;
+	left: 189px;
+	top: 106px;
+}
+footer a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
 .anhchu .text30
 {
 	font-family: 'Lato';
 	font-size: 30px;
 
 }
+.textdiv
+{
+	position: relative;
+}
 .anhchu .text
 {
 	font-family: 'Lato';
 	font-size: 16px;
+	width: 520px;
+	position: absolute;
+	top: 130px;
 }
 .anhchu .textview
 {
 	font-family: 'Lato';
 	font-size: 16px;
 	color: #006DFE;	
+	position: absolute;
+	top: 260px;
+}
+.todaytopplace
+{
+	font-family: 'Lato';
+	font-size: 35px;
+	color: #102746;
+}
+.todaytopfull
+{
+	margin-top: 139px;
+}
+.fa-long-arrow-alt-right
+{
+	margin-left: 20px;
+}
+a
+{
+	text-decoration: none;
+}
+.todaytop span
+{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #102746;
+}
+.search
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 20px;
+}
+.searchh1, .searchh2
+{
+	border-bottom: solid 1px;
+	padding-top: 20px;
+}
+.searchh2
+{
+width: 270px;
+}
+.anh-galery
+{
+	margin-top: 10px;
 }
