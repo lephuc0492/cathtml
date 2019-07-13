@@ -1,0 +1,302 @@
+*
+{
+	/*border: solid;*/
+	box-sizing: border-box;
+}
+.bg-light
+{
+	background-color: rgba(0,123,255,.25)!important;
+}
+.nav-link
+{
+	font-family: 'Lato';
+	font-size: 18px;
+	margin-right: 74px;
+}
+#collapsibleNavId > ul > li:nth-child(4) > a
+{
+	margin-right: 0px;
+}
+nav
+{
+	z-index: 3;
+}
+.img-banner
+{
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #FFFFFF;
+}
+.discover
+{
+	font-size: 50px;
+	width: 621px;
+	color: #FFFFFF;
+	font-family: 'Lato';
+	position: absolute;
+	top: 263px;
+	left: 189px;
+}
+.content-banner
+{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #FFFFFF;
+	width: 548px;	
+	position: absolute;
+	top: 406px;
+	left: 189px;	
+}
+header {
+    background-image: url(./anh/banner.png);
+
+    height: 962px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+.container
+{
+	width: 1082px;
+	height: 31px;
+	position: absolute;
+	left: 189px;
+	top: 56px;
+	padding: 0;
+}
+.search
+{
+	position: absolute;
+	top: 532px;
+	left: 189px;
+	font-size: 18px;
+	font-family: 'Lato';
+	color: #FFFFFF;
+	width: 888px;
+}
+input
+{
+	margin-right: 24px;
+	color: rgba(0,123,255,.25);
+}
+body > header > div.search > p > input[type="Radio"]:nth-child(2)
+{
+	margin-left: 91px;
+}
+.button-search
+{
+	width: 171px;
+	height: 58px;
+	font-family: 'Lato';
+	font-size: 24px;
+	background-color: #1B7DFF;
+	color: #FFFFFF;
+	border: none;
+
+}
+.chuwhere
+{
+	margin-right: 76px;
+}
+
+.benefit-to
+{
+	position: absolute;
+	top: 739px;
+	left: 88px;
+	background-color: #FFFFFF;
+	z-index: 5;
+	height: 655px;
+}
+.benefit	
+{
+	font-family: 'Lato';
+	font-size: 35px;
+	color: #102746;
+	position: absolute;
+	top: 93px;
+	left: 101px;
+}
+.benefit-con
+{
+	background-color: #FFFFFF;
+}
+.benefit-text
+{
+	font-family: 'Lato';
+	font-size: 18px;
+	color: #000000;
+
+}
+.benefit-text2
+{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #000000;	
+	
+}
+.row
+{
+	position: absolute;
+	top: 255px;
+	left: 101px;
+}
+body > section > div > div.row > div:nth-child(1) > div > img, body > section > div > div.row > div:nth-child(2) > div > img, body > section > div > div.row > div:nth-child(3) > div > img
+{
+	margin-bottom: 37px;
+}
+body > section > div > div.row > div:nth-child(1) > div
+{
+width: 310px;
+}
+body > section > div > div.row > div:nth-child(1) > div > span:nth-child(9)
+{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #006DFE;
+}
+.getinspire
+{
+	position: absolute;
+	top: 1506px;
+	left: 88px;
+	height: 100%;
+}
+body > section > div.getinspire > span
+{
+	padding-top: 112px;
+	font-size: 35px;
+	font-family: 'Lato';
+	color: #102746;
+}
+body > section > div.getinspire > a
+{
+	color: #006DFE;
+	font-size: 16px;
+	font-family: 'Lato';
+}
+.anh12
+{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.anh12 img, .anh345 img
+{
+	width: 100%;
+}
+.anh345
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.anh1 span, .anh2 span
+{
+	color: #FFFFFF;
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;
+	top: 280px;
+	padding-left: 30px;
+}
+.anh345 span
+{
+	color: #FFFFFF;
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;
+	top: 540px;	
+	padding-left: 30px;
+}
+.getinspire > a
+{
+position: absolute;
+right: 0;
+top: 20px;
+}
+.anhchu
+{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 50px;
+}
+.anhchu img
+{
+	width: 100%;
+}
+.todaytop
+{
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.todaytop img
+{
+	width: 100%;
+}
+.todaytop button
+{
+	width: 118px;
+	height: 42px;
+	background-color: #006DFE;
+	color: #FFFFFF;
+	border: none;
+}
+.todaytop-nho 
+{
+	position: relative;
+}
+.todaytop-nho .icon
+{
+position: absolute;
+top: 0;
+right: 0;
+}
+.anhvideo .anhvideoto
+{
+	width: 100%;
+}
+.anhvideo 
+{
+	position: relative;
+}
+.anhvideonho
+{
+	position: absolute;
+	top: 169px;
+	left: 476px;
+	width: 112px;
+	height: 112px;
+}
+footer
+{
+	background-color: #0E1D28;
+
+}
+footer li
+{
+	list-style: none;
+}
+footer div ul
+{
+	float: left;
+}
+.anhchu .text30
+{
+	font-family: 'Lato';
+	font-size: 30px;
+
+}
+.anhchu .text
+{
+	font-family: 'Lato';
+	font-size: 16px;
+}
+.anhchu .textview
+{
+	font-family: 'Lato';
+	font-size: 16px;
+	color: #006DFE;	
+}
